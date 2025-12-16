@@ -14,7 +14,7 @@ from typing import Iterable, List, Tuple
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from .models import Task
+from models import Task
 
 
 def tasks_to_dataframe(tasks: Iterable[Task]) -> pd.DataFrame:

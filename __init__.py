@@ -19,12 +19,12 @@ Modules:
 * ``report`` – functions to produce textual status reports.
 """
 
-from .models import Role, Deliverable, Task, BudgetItem
-from .project import Project
-from .risk import Risk
-from .chat import ChatSystem
-from .report import generate_status_report
-from .scheduler import plot_gantt
+from models import Role, Deliverable, Task, BudgetItem
+from project import Project
+from risk import Risk
+from chat import ChatSystem
+from report import generate_status_report
+from scheduler import plot_gantt
 
 __all__ = [
     "Role",

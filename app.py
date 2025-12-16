@@ -14,11 +14,11 @@ from __future__ import annotations
 
 from datetime import date, timedelta
 
-from .models import Role, Deliverable, Task, BudgetItem
-from .project import Project
-from .risk import Risk
-from .report import generate_status_report
-from .scheduler import plot_gantt
+from models import Role, Deliverable, Task, BudgetItem
+from project import Project
+from risk import Risk
+from report import generate_status_report
+from scheduler import plot_gantt
 
 
 def build_sample_project() -> Project:

@@ -14,8 +14,8 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import List, Optional
 
-from .models import Role, Deliverable, Task, BudgetItem
-from .risk import Risk
+from models import Role, Deliverable, Task, BudgetItem
+from risk import Risk
 
 
 @dataclass
