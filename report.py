@@ -15,7 +15,7 @@ from __future__ import annotations
 from datetime import date
 from typing import List
 
-from .project import Project
+from project import Project
 
 
 def generate_status_report(project: Project) -> str:
